@@ -158,11 +158,35 @@ footer {
   margin-bottom: 6px;
 }
 
+
 .participants-list {
-  margin-left: 18px;
+  margin-left: 0;
   margin-bottom: 0;
   color: #333;
   font-size: 15px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.participants-list.no-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+.participant-email {
+  margin-right: 8px;
+}
+
+.delete-icon {
+  color: #c62828;
+  cursor: pointer;
+  margin-left: 4px;
+  font-size: 16px;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #a31515;
 }
 
 .no-participants {
